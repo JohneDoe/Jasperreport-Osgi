@@ -29,3 +29,6 @@ svgWithXmlApis.bndrun
 
 here i have some problem with:
 requirement &(osgi.ee=JavaSE)(version=1.1)]
+
+
+you can see/start it in project *my.sandbox.report.svgtest* 
