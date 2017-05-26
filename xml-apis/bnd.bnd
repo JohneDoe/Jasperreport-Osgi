@@ -1,4 +1,4 @@
--classpath: xml-apis-1.4.01.jar
+-classpath: xml-apis-1.3.04.jar
 Bundle-SymbolicName: xml-apis
 ver: 1.3.04.wrapped
 -output: ${bsn}-${ver}.jar
