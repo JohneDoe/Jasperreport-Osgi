@@ -1,0 +1,29 @@
+-buildpath: \
+	osgi.annotation;version=6.0.1,\
+	osgi.core;version=6.0,\
+	osgi.cmpn;version=6.0,\
+	net.sf.jasperreports.engine;version=6.4,\
+	org.apache.commons.collections,\
+	org.apache.commons.logging,\
+	org.apache.commons.digester,\
+	com.lowagie.itext,\
+	org.apache.servicemix.bundles.batik,\
+	org.apache.servicemix.bundles.xerces
+
+
+
+
+-runfw: org.apache.felix.framework;version=5
+-runee: JavaSE-1.8
+
+
+
+javac.source: 1.8
+javac.target: 1.8
+
+-baseline: *
+-removeheaders: Bnd-LastModified,Tool,Created-By
+-resolve: auto
+-sub: *.bnd
+Bundle-Version: 0.0.0
+
