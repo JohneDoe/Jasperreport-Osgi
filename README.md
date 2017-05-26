@@ -15,12 +15,17 @@ needs...
 
 I tryed many ways, her are 2:
 
-1: including every single jar of org.w3c. (this is the jaspersoftstudio eclipse plugin way)
+#1: including every single jar of org.w3c. (this is the jaspersoftstudio eclipse plugin way)
+
 *svgWithW3cAndJavaxXml.bndrun*
+
 When starting all cores of my cpu went up but nothing happened 
 
 
-2: bundle xml-apis(-ext)
+
+#2: bundle xml-apis(-ext)
+
 svgWithXmlApis.bndrun
+
 here i have some problem with:
 requirement &(osgi.ee=JavaSE)(version=1.1)]
