@@ -6,3 +6,4 @@ Bundle-Version: ${ver}
 Export-Package: *;version=${ver}
 -runfw: org.apache.felix.framework;version='[5.4.0,5.4.0]'
 -runee: JavaSE-1.8
+Import-Package: org.w3c.dom.views;resolution:=optional
