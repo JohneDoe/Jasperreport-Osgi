@@ -13,9 +13,9 @@ needs...
 </dependency>
 
 
-I tryed many ways, her are 2:
+I tryed many ways, here are 2:
 
-#1: including every single jar of org.w3c. (this is the jaspersoftstudio eclipse plugin way)
+1: including every single jar of org.w3c. (this is the jaspersoftstudio eclipse plugin way)
 
 *svgWithW3cAndJavaxXml.bndrun*
 
@@ -23,7 +23,7 @@ When starting all cores of my cpu went up but nothing happened
 
 
 
-#2: bundle xml-apis(-ext)
+2: bundle xml-apis(-ext)
 
 svgWithXmlApis.bndrun
 
