@@ -8,7 +8,8 @@
 	org.apache.commons.digester,\
 	com.lowagie.itext,\
 	org.apache.servicemix.bundles.batik,\
-	org.apache.servicemix.bundles.xerces
+	org.apache.servicemix.bundles.xerces,\
+	org.w3c.dom.svg;version=latest
 
 
 
