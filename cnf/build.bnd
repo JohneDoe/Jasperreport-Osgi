@@ -14,7 +14,8 @@
 	aQute.bnd.deployer.repository.LocalIndexedRepo;pretty=true;readonly=false;name=OSGi;local=${workspace}/my.sandbox.repo/osgi;type=R5,\
 	aQute.bnd.deployer.repository.LocalIndexedRepo;pretty=true;readonly=false;name=Apache-Felix;local=${workspace}/my.sandbox.repo/apache-felix;type=R5,\
 	aQute.bnd.deployer.repository.LocalIndexedRepo;pretty=true;readonly=false;name=Bnd;local=${workspace}/my.sandbox.repo/bnd;type=R5,\
-	aQute.bnd.deployer.repository.LocalIndexedRepo;pretty=true;readonly=false;name=JasperReports;local=${workspace}/my.sandbox.repo/jasperReports;type=R5,\
+	aQute.bnd.deployer.repository.LocalIndexedRepo;pretty=true;readonly=false;name=JasperReports;local=${workspace}/my.sandbox.repo/jasperReports;type=R5
+
 
 -releaserepo: Release
 -baselinerepo: Release

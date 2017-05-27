@@ -12,8 +12,10 @@
 	osgi.identity;filter:='(osgi.identity=com.lowagie.itext)',\
 	osgi.identity;filter:='(osgi.identity=net.sf.jasperreports.engine)',\
 	osgi.identity;filter:='(osgi.identity=org.apache.servicemix.bundles.batik)',\
-	osgi.identity;filter:='(osgi.identity=xml-api-ext)',\
-	osgi.identity;filter:='(osgi.identity=xml-apis)'
+	osgi.identity;filter:='(&(osgi.identity=org.w3c.dom.smil)(version>=1.0.1))',\
+	osgi.identity;filter:='(&(osgi.identity=org.w3c.dom.svg)(version>=1.1.0))',\
+	osgi.identity;filter:='(&(osgi.identity=org.apache.servicemix.specs.jaxp-api-1.4)(version>=2.7.0))',\
+	osgi.identity;filter:='(osgi.identity=org.apache.servicemix.bundles.xalan)'
 	
 -runbundles: \
 	bcpkix;version='[1.57.0,1.57.1)',\
@@ -36,7 +38,9 @@
 	org.apache.servicemix.bundles.xalan;version='[2.7.2,2.7.3)',\
 	org.apache.servicemix.bundles.xerces;version='[2.11.0,2.11.1)',\
 	org.apache.servicemix.bundles.xmlresolver;version='[1.2.0,1.2.1)',\
-	xml-api-ext;version=snapshot,\
-	xml-apis;version=snapshot
+	org.w3c.dom.events;version='[3.0.0,3.0.1)',\
+	org.w3c.dom.smil;version='[1.0.1,1.0.2)',\
+	org.w3c.dom.svg;version='[1.1.0,1.1.1)',\
+	org.apache.servicemix.specs.jaxp-api-1.4;version='[2.7.0,2.7.1)'
 
 	

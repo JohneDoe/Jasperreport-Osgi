@@ -1,4 +1,4 @@
-package my.sandbox.batikonly;
+package my.sandbox.servicemix;
 
 import java.io.ByteArrayInputStream;
 import java.io.IOException;
