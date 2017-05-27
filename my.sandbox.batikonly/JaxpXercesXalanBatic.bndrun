@@ -2,7 +2,7 @@ Bundle-Version: 0.0.0
 -runfw: org.apache.felix.framework;version='[5.4.0,5.4.0]'
 -runee: JavaSE-1.8
 -runsystemcapabilities: osgi.ee;osgi.ee=JavaSE;version=1.1
-
+-runtrace: true
 
 -runrequires: \
 	osgi.identity;filter:='(osgi.identity=my.sandbox.batikonly)',\
