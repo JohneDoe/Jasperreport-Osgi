@@ -1,0 +1,2 @@
+Private-Package: org.w3c.dom.smil
+Export-Package: org.w3c.dom.svg
