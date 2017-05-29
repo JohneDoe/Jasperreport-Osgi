@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<breakpoints>
+<breakpoint enabled="true" persistant="true" registered="true">
+<resource path="/my.sandbox.batikonly/biz.aQute.launcher-3.4.0.jar" type="1"/>
+<marker charStart="14457" lineNumber="463" type="org.eclipse.jdt.debug.javaLineBreakpointMarker">
+<attrib name="charStart" value="14457"/>
+<attrib name="org.eclipse.jdt.debug.core.suspendPolicy" value="2"/>
+<attrib name="org.eclipse.jdt.debug.ui.JAVA_ELEMENT_HANDLE_ID" value="=my.sandbox.batikonly/biz.aQute.launcher-3.4.0.jar&lt;aQute.launcher(Launcher.class[Launcher"/>
+<attrib name="charEnd" value="14519"/>
+<attrib name="org.eclipse.debug.core.enabled" value="true"/>
+<attrib name="org.eclipse.jdt.debug.core.installCount" value="0"/>
+<attrib name="message" value="Line breakpoint:Launcher [line: 463] - update(long)"/>
+<attrib name="org.eclipse.debug.core.id" value="org.eclipse.jdt.debug"/>
+<attrib name="org.eclipse.jdt.debug.core.typeName" value="aQute.launcher.Launcher"/>
+<attrib name="org.eclipse.jdt.internal.core.JavaModelManager.handleId" value="=my.sandbox.batikonly/biz.aQute.launcher-3.4.0.jar&lt;aQute.launcher(Launcher.class"/>
+<attrib name="workingset_name" value=""/>
+<attrib name="workingset_id" value="org.eclipse.debug.ui.breakpointWorkingSet"/>
+</marker>
+</breakpoint>
+</breakpoints>
