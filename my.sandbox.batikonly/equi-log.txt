@@ -1,0 +1,214 @@
+# properties {launch.name=JaxpXercesXalanBaticEquinox.bndrun, launch.noreferences=false, launch.trace=true, launch.notificationPort=64010, launch.system.capabilities=osgi.ee;osgi.ee=JavaSE;version="1.1", launch.services=true, launch.activators=, launch.system.packages=org.eclipse.core.runtime.adaptor;x-friends:="org.eclipse.core.runtime",org.eclipse.core.runtime.internal.adaptor;x-internal:=true,org.eclipse.equinox.log;version="1.0",org.eclipse.osgi.container;version="1.1",org.eclipse.osgi.container.builders;version="1.0",org.eclipse.osgi.container.namespaces;version="1.0",org.eclipse.osgi.framework.console;version="1.1",org.eclipse.osgi.framework.eventmgr;version="1.2",org.eclipse.osgi.framework.internal.reliablefile;x-internal:=true,org.eclipse.osgi.framework.log;version="1.1",org.eclipse.osgi.framework.util;x-internal:=true,org.eclipse.osgi.internal.debug;x-internal:=true,org.eclipse.osgi.internal.framework;x-internal:=true,org.eclipse.osgi.internal.hookregistry;x-friends:="org.eclipse.osgi.tests",org.eclipse.osgi.internal.loader;x-internal:=true,org.eclipse.osgi.internal.loader.buddy;x-internal:=true,org.eclipse.osgi.internal.loader.classpath;x-internal:=true,org.eclipse.osgi.internal.loader.sources;x-internal:=true,org.eclipse.osgi.internal.location;x-internal:=true,org.eclipse.osgi.internal.messages;x-internal:=true,org.eclipse.osgi.internal.provisional.service.security;version="1.0.0";x-friends:="org.eclipse.equinox.security.ui",org.eclipse.osgi.internal.provisional.verifier;x-friends:="org.eclipse.update.core,org.eclipse.ui.workbench,org.eclipse.equinox.p2.artifact.repository",org.eclipse.osgi.internal.service.security;x-friends:="org.eclipse.equinox.security.ui",org.eclipse.osgi.internal.serviceregistry;x-internal:=true,org.eclipse.osgi.internal.signedcontent;x-internal:=true,org.eclipse.osgi.internal.url;x-internal:=true,org.eclipse.osgi.launch;version="1.0",org.eclipse.osgi.report.resolution;version="1.0",org.eclipse.osgi.service.datalocation;version="1.3",org.eclipse.osgi.service.debug;version="1.2",org.eclipse.osgi.service.environment;version="1.3",org.eclipse.osgi.service.localization;version="1.1",org.eclipse.osgi.service.pluginconversion;version="1.0",org.eclipse.osgi.service.resolver;version="1.6",org.eclipse.osgi.service.runnable;version="1.1",org.eclipse.osgi.service.security;version="1.0",org.eclipse.osgi.service.urlconversion;version="1.0",org.eclipse.osgi.signedcontent;version="1.0",org.eclipse.osgi.storage;x-friends:="org.eclipse.osgi.tests",org.eclipse.osgi.storage.bundlefile;x-internal:=true,org.eclipse.osgi.storage.url.reference;x-internal:=true,org.eclipse.osgi.storagemanager;version="1.0",org.eclipse.osgi.util;version="1.1",org.osgi.dto;version="1.0",org.osgi.framework;version="1.8",org.osgi.framework.dto;version="1.8",org.osgi.framework.hooks.bundle;version="1.1",org.osgi.framework.hooks.resolver;version="1.0",org.osgi.framework.hooks.service;version="1.1",org.osgi.framework.hooks.weaving;version="1.1",org.osgi.framework.launch;version="1.2",org.osgi.framework.namespace;version="1.1",org.osgi.framework.startlevel;version="1.0",org.osgi.framework.startlevel.dto;version="1.0",org.osgi.framework.wiring;version="1.2",org.osgi.framework.wiring.dto;version="1.2",org.osgi.resource;version="1.0",org.osgi.resource.dto;version="1.0",org.osgi.service.condpermadmin;version="1.1.1",org.osgi.service.log;version="1.3",org.osgi.service.packageadmin;version="1.2",org.osgi.service.permissionadmin;version="1.2",org.osgi.service.resolver;version="1.0.1",org.osgi.service.startlevel;version="1.1",org.osgi.service.url;version="1.0",org.osgi.util.tracker;version="1.5.1", launch.timeout=0, launch.embedded=false, launch.storage.dir=C:\Users\MyUser\git\Jasperreport-Osgi\my.sandbox.batikonly\generated\fw, launch.bundles=C:\Users\MyUser\git\Jasperreport-Osgi\my.sandbox.batikonly\generated\my.sandbox.batikonly.jar,C:\Users\MyUser\git\Jasperreport-Osgi\my.sandbox.repo\apache-felix\org.apache.felix.configadmin-1.8.12.jar,C:\Users\MyUser\git\Jasperreport-Osgi\my.sandbox.repo\apache-felix\org.apache.felix.gogo.command-0.16.0.jar,C:\Users\MyUser\git\Jasperreport-Osgi\my.sandbox.repo\apache-felix\org.apache.felix.gogo.runtime-0.16.2.jar,C:\Users\MyUser\git\Jasperreport-Osgi\my.sandbox.repo\apache-felix\org.apache.felix.metatype-1.1.2.jar,C:\Users\MyUser\git\Jasperreport-Osgi\my.sandbox.repo\jasperReports\org.apache.servicemix.bundles.batik\org.apache.servicemix.bundles.batik-1.9.0.jar,C:\Users\MyUser\git\Jasperreport-Osgi\my.sandbox.repo\jasperReports\org.apache.servicemix.bundles.bcel\org.apache.servicemix.bundles.bcel-5.2.0.jar,C:\Users\MyUser\git\Jasperreport-Osgi\my.sandbox.repo\jasperReports\org.apache.servicemix.bundles.xalan\org.apache.servicemix.bundles.xalan-2.7.2.jar,C:\Users\MyUser\git\Jasperreport-Osgi\my.sandbox.repo\jasperReports\org.apache.servicemix.bundles.xerces\org.apache.servicemix.bundles.xerces-2.11.0_1.jar,C:\Users\MyUser\git\Jasperreport-Osgi\my.sandbox.repo\jasperReports\org.apache.servicemix.bundles.xmlresolver\org.apache.servicemix.bundles.xmlresolver-1.2.0.jar,C:\Users\MyUser\git\Jasperreport-Osgi\my.sandbox.repo\jasperReports\org.apache.servicemix.specs.jaxp-api-1.4\org.apache.servicemix.specs.jaxp-api-1.4-2.7.0.jar,C:\Users\MyUser\git\Jasperreport-Osgi\my.sandbox.repo\apache-felix\org.apache.felix.eventadmin-1.4.8.jar,C:\Users\MyUser\git\Jasperreport-Osgi\my.sandbox.repo\apache-felix\org.apache.felix.scr-2.0.6.jar, launch.keep=false}
+# inited runbundles=[C:\Users\MyUser\git\Jasperreport-Osgi\my.sandbox.batikonly\generated\my.sandbox.batikonly.jar, C:\Users\MyUser\git\Jasperreport-Osgi\my.sandbox.repo\apache-felix\org.apache.felix.configadmin-1.8.12.jar, C:\Users\MyUser\git\Jasperreport-Osgi\my.sandbox.repo\apache-felix\org.apache.felix.gogo.command-0.16.0.jar, C:\Users\MyUser\git\Jasperreport-Osgi\my.sandbox.repo\apache-felix\org.apache.felix.gogo.runtime-0.16.2.jar, C:\Users\MyUser\git\Jasperreport-Osgi\my.sandbox.repo\apache-felix\org.apache.felix.metatype-1.1.2.jar, C:\Users\MyUser\git\Jasperreport-Osgi\my.sandbox.repo\jasperReports\org.apache.servicemix.bundles.batik\org.apache.servicemix.bundles.batik-1.9.0.jar, C:\Users\MyUser\git\Jasperreport-Osgi\my.sandbox.repo\jasperReports\org.apache.servicemix.bundles.bcel\org.apache.servicemix.bundles.bcel-5.2.0.jar, C:\Users\MyUser\git\Jasperreport-Osgi\my.sandbox.repo\jasperReports\org.apache.servicemix.bundles.xalan\org.apache.servicemix.bundles.xalan-2.7.2.jar, C:\Users\MyUser\git\Jasperreport-Osgi\my.sandbox.repo\jasperReports\org.apache.servicemix.bundles.xerces\org.apache.servicemix.bundles.xerces-2.11.0_1.jar, C:\Users\MyUser\git\Jasperreport-Osgi\my.sandbox.repo\jasperReports\org.apache.servicemix.bundles.xmlresolver\org.apache.servicemix.bundles.xmlresolver-1.2.0.jar, C:\Users\MyUser\git\Jasperreport-Osgi\my.sandbox.repo\jasperReports\org.apache.servicemix.specs.jaxp-api-1.4\org.apache.servicemix.specs.jaxp-api-1.4-2.7.0.jar, C:\Users\MyUser\git\Jasperreport-Osgi\my.sandbox.repo\apache-felix\org.apache.felix.eventadmin-1.4.8.jar, C:\Users\MyUser\git\Jasperreport-Osgi\my.sandbox.repo\apache-felix\org.apache.felix.scr-2.0.6.jar] activators=[] timeout=0 properties=<no more arguments>
+# version org.eclipse.osgi; singleton:=true;version=3.11.3.v20170209-1843, biz.aQute.launcher;version=3.4.0.201705251417-SNAPSHOT
+# using working dir: C:\Users\MyUser\git\Jasperreport-Osgi\my.sandbox.batikonly\generated\fw with keeping=false
+# deleting working dir C:\Users\MyUser\git\Jasperreport-Osgi\my.sandbox.batikonly\generated\fw because not kept
+# system packages used: org.eclipse.core.runtime.adaptor;x-friends:="org.eclipse.core.runtime",org.eclipse.core.runtime.internal.adaptor;x-internal:=true,org.eclipse.equinox.log;version="1.0",org.eclipse.osgi.container;version="1.1",org.eclipse.osgi.container.builders;version="1.0",org.eclipse.osgi.container.namespaces;version="1.0",org.eclipse.osgi.framework.console;version="1.1",org.eclipse.osgi.framework.eventmgr;version="1.2",org.eclipse.osgi.framework.internal.reliablefile;x-internal:=true,org.eclipse.osgi.framework.log;version="1.1",org.eclipse.osgi.framework.util;x-internal:=true,org.eclipse.osgi.internal.debug;x-internal:=true,org.eclipse.osgi.internal.framework;x-internal:=true,org.eclipse.osgi.internal.hookregistry;x-friends:="org.eclipse.osgi.tests",org.eclipse.osgi.internal.loader;x-internal:=true,org.eclipse.osgi.internal.loader.buddy;x-internal:=true,org.eclipse.osgi.internal.loader.classpath;x-internal:=true,org.eclipse.osgi.internal.loader.sources;x-internal:=true,org.eclipse.osgi.internal.location;x-internal:=true,org.eclipse.osgi.internal.messages;x-internal:=true,org.eclipse.osgi.internal.provisional.service.security;version="1.0.0";x-friends:="org.eclipse.equinox.security.ui",org.eclipse.osgi.internal.provisional.verifier;x-friends:="org.eclipse.update.core,org.eclipse.ui.workbench,org.eclipse.equinox.p2.artifact.repository",org.eclipse.osgi.internal.service.security;x-friends:="org.eclipse.equinox.security.ui",org.eclipse.osgi.internal.serviceregistry;x-internal:=true,org.eclipse.osgi.internal.signedcontent;x-internal:=true,org.eclipse.osgi.internal.url;x-internal:=true,org.eclipse.osgi.launch;version="1.0",org.eclipse.osgi.report.resolution;version="1.0",org.eclipse.osgi.service.datalocation;version="1.3",org.eclipse.osgi.service.debug;version="1.2",org.eclipse.osgi.service.environment;version="1.3",org.eclipse.osgi.service.localization;version="1.1",org.eclipse.osgi.service.pluginconversion;version="1.0",org.eclipse.osgi.service.resolver;version="1.6",org.eclipse.osgi.service.runnable;version="1.1",org.eclipse.osgi.service.security;version="1.0",org.eclipse.osgi.service.urlconversion;version="1.0",org.eclipse.osgi.signedcontent;version="1.0",org.eclipse.osgi.storage;x-friends:="org.eclipse.osgi.tests",org.eclipse.osgi.storage.bundlefile;x-internal:=true,org.eclipse.osgi.storage.url.reference;x-internal:=true,org.eclipse.osgi.storagemanager;version="1.0",org.eclipse.osgi.util;version="1.1",org.osgi.dto;version="1.0",org.osgi.framework;version="1.8",org.osgi.framework.dto;version="1.8",org.osgi.framework.hooks.bundle;version="1.1",org.osgi.framework.hooks.resolver;version="1.0",org.osgi.framework.hooks.service;version="1.1",org.osgi.framework.hooks.weaving;version="1.1",org.osgi.framework.launch;version="1.2",org.osgi.framework.namespace;version="1.1",org.osgi.framework.startlevel;version="1.0",org.osgi.framework.startlevel.dto;version="1.0",org.osgi.framework.wiring;version="1.2",org.osgi.framework.wiring.dto;version="1.2",org.osgi.resource;version="1.0",org.osgi.resource.dto;version="1.0",org.osgi.service.condpermadmin;version="1.1.1",org.osgi.service.log;version="1.3",org.osgi.service.packageadmin;version="1.2",org.osgi.service.permissionadmin;version="1.2",org.osgi.service.resolver;version="1.0.1",org.osgi.service.startlevel;version="1.1",org.osgi.service.url;version="1.0",org.osgi.util.tracker;version="1.5.1"
+# system capabilities used: osgi.ee;osgi.ee=JavaSE;version="1.1"
+# using META-INF/services
+# found META-INF/services in jar:file:/C:/Users/MyUser/git/Jasperreport-Osgi/my.sandbox.repo/apache-felix/org.eclipse.osgi_3.11.3.v20170209-1843.jar!/META-INF/services/org.osgi.framework.launch.FrameworkFactory
+# org.eclipse.osgi.launch.EquinoxFactory
+# Framework factory org.eclipse.osgi.launch.EquinoxFactory@5f375618
+# framework instance org.eclipse.osgi.launch.Equinox@10e92f8f
+# inited system bundle org.eclipse.osgi.launch.Equinox@10e92f8f
+# No default permission resource default.perm
+# Using default permissions for System Bundle
+# No permissions for System Bundle
+# system bundle started ok
+# start embedded activators
+# Updating framework with [C:\Users\MyUser\git\Jasperreport-Osgi\my.sandbox.batikonly\generated\my.sandbox.batikonly.jar, C:\Users\MyUser\git\Jasperreport-Osgi\my.sandbox.repo\apache-felix\org.apache.felix.configadmin-1.8.12.jar, C:\Users\MyUser\git\Jasperreport-Osgi\my.sandbox.repo\apache-felix\org.apache.felix.gogo.command-0.16.0.jar, C:\Users\MyUser\git\Jasperreport-Osgi\my.sandbox.repo\apache-felix\org.apache.felix.gogo.runtime-0.16.2.jar, C:\Users\MyUser\git\Jasperreport-Osgi\my.sandbox.repo\apache-felix\org.apache.felix.metatype-1.1.2.jar, C:\Users\MyUser\git\Jasperreport-Osgi\my.sandbox.repo\jasperReports\org.apache.servicemix.bundles.batik\org.apache.servicemix.bundles.batik-1.9.0.jar, C:\Users\MyUser\git\Jasperreport-Osgi\my.sandbox.repo\jasperReports\org.apache.servicemix.bundles.bcel\org.apache.servicemix.bundles.bcel-5.2.0.jar, C:\Users\MyUser\git\Jasperreport-Osgi\my.sandbox.repo\jasperReports\org.apache.servicemix.bundles.xalan\org.apache.servicemix.bundles.xalan-2.7.2.jar, C:\Users\MyUser\git\Jasperreport-Osgi\my.sandbox.repo\jasperReports\org.apache.servicemix.bundles.xerces\org.apache.servicemix.bundles.xerces-2.11.0_1.jar, C:\Users\MyUser\git\Jasperreport-Osgi\my.sandbox.repo\jasperReports\org.apache.servicemix.bundles.xmlresolver\org.apache.servicemix.bundles.xmlresolver-1.2.0.jar, C:\Users\MyUser\git\Jasperreport-Osgi\my.sandbox.repo\jasperReports\org.apache.servicemix.specs.jaxp-api-1.4\org.apache.servicemix.specs.jaxp-api-1.4-2.7.0.jar, C:\Users\MyUser\git\Jasperreport-Osgi\my.sandbox.repo\apache-felix\org.apache.felix.eventadmin-1.4.8.jar, C:\Users\MyUser\git\Jasperreport-Osgi\my.sandbox.repo\apache-felix\org.apache.felix.scr-2.0.6.jar]
+# installing C:\Users\MyUser\git\Jasperreport-Osgi\my.sandbox.batikonly\generated\my.sandbox.batikonly.jar
+# no reference: url false
+# Using default permissions for file:/C:/Users/MyUser/git/Jasperreport-Osgi/my.sandbox.batikonly/generated/my.sandbox.batikonly.jar
+# installing C:\Users\MyUser\git\Jasperreport-Osgi\my.sandbox.repo\apache-felix\org.apache.felix.configadmin-1.8.12.jar
+# no reference: url false
+# For permissions inside bundle file:/C:/Users/MyUser/git/Jasperreport-Osgi/my.sandbox.repo/apache-felix/org.apache.felix.configadmin-1.8.12.jar
+# installing C:\Users\MyUser\git\Jasperreport-Osgi\my.sandbox.repo\apache-felix\org.apache.felix.gogo.command-0.16.0.jar
+# no reference: url false
+# Using default permissions for file:/C:/Users/MyUser/git/Jasperreport-Osgi/my.sandbox.repo/apache-felix/org.apache.felix.gogo.command-0.16.0.jar
+# installing C:\Users\MyUser\git\Jasperreport-Osgi\my.sandbox.repo\apache-felix\org.apache.felix.gogo.runtime-0.16.2.jar
+# no reference: url false
+# Using default permissions for file:/C:/Users/MyUser/git/Jasperreport-Osgi/my.sandbox.repo/apache-felix/org.apache.felix.gogo.runtime-0.16.2.jar
+# installing C:\Users\MyUser\git\Jasperreport-Osgi\my.sandbox.repo\apache-felix\org.apache.felix.metatype-1.1.2.jar
+# no reference: url false
+# Using default permissions for file:/C:/Users/MyUser/git/Jasperreport-Osgi/my.sandbox.repo/apache-felix/org.apache.felix.metatype-1.1.2.jar
+# installing C:\Users\MyUser\git\Jasperreport-Osgi\my.sandbox.repo\jasperReports\org.apache.servicemix.bundles.batik\org.apache.servicemix.bundles.batik-1.9.0.jar
+# no reference: url false
+# Using default permissions for file:/C:/Users/MyUser/git/Jasperreport-Osgi/my.sandbox.repo/jasperReports/org.apache.servicemix.bundles.batik/org.apache.servicemix.bundles.batik-1.9.0.jar
+# installing C:\Users\MyUser\git\Jasperreport-Osgi\my.sandbox.repo\jasperReports\org.apache.servicemix.bundles.bcel\org.apache.servicemix.bundles.bcel-5.2.0.jar
+# no reference: url false
+# Using default permissions for file:/C:/Users/MyUser/git/Jasperreport-Osgi/my.sandbox.repo/jasperReports/org.apache.servicemix.bundles.bcel/org.apache.servicemix.bundles.bcel-5.2.0.jar
+# installing C:\Users\MyUser\git\Jasperreport-Osgi\my.sandbox.repo\jasperReports\org.apache.servicemix.bundles.xalan\org.apache.servicemix.bundles.xalan-2.7.2.jar
+# no reference: url false
+# Using default permissions for file:/C:/Users/MyUser/git/Jasperreport-Osgi/my.sandbox.repo/jasperReports/org.apache.servicemix.bundles.xalan/org.apache.servicemix.bundles.xalan-2.7.2.jar
+# installing C:\Users\MyUser\git\Jasperreport-Osgi\my.sandbox.repo\jasperReports\org.apache.servicemix.bundles.xerces\org.apache.servicemix.bundles.xerces-2.11.0_1.jar
+# no reference: url false
+# Using default permissions for file:/C:/Users/MyUser/git/Jasperreport-Osgi/my.sandbox.repo/jasperReports/org.apache.servicemix.bundles.xerces/org.apache.servicemix.bundles.xerces-2.11.0_1.jar
+# installing C:\Users\MyUser\git\Jasperreport-Osgi\my.sandbox.repo\jasperReports\org.apache.servicemix.bundles.xmlresolver\org.apache.servicemix.bundles.xmlresolver-1.2.0.jar
+# no reference: url false
+# Using default permissions for file:/C:/Users/MyUser/git/Jasperreport-Osgi/my.sandbox.repo/jasperReports/org.apache.servicemix.bundles.xmlresolver/org.apache.servicemix.bundles.xmlresolver-1.2.0.jar
+# installing C:\Users\MyUser\git\Jasperreport-Osgi\my.sandbox.repo\jasperReports\org.apache.servicemix.specs.jaxp-api-1.4\org.apache.servicemix.specs.jaxp-api-1.4-2.7.0.jar
+# no reference: url false
+# Using default permissions for file:/C:/Users/MyUser/git/Jasperreport-Osgi/my.sandbox.repo/jasperReports/org.apache.servicemix.specs.jaxp-api-1.4/org.apache.servicemix.specs.jaxp-api-1.4-2.7.0.jar
+# installing C:\Users\MyUser\git\Jasperreport-Osgi\my.sandbox.repo\apache-felix\org.apache.felix.eventadmin-1.4.8.jar
+# no reference: url false
+# Using default permissions for file:/C:/Users/MyUser/git/Jasperreport-Osgi/my.sandbox.repo/apache-felix/org.apache.felix.eventadmin-1.4.8.jar
+# installing C:\Users\MyUser\git\Jasperreport-Osgi\my.sandbox.repo\apache-felix\org.apache.felix.scr-2.0.6.jar
+# no reference: url false
+# Using default permissions for file:/C:/Users/MyUser/git/Jasperreport-Osgi/my.sandbox.repo/apache-felix/org.apache.felix.scr-2.0.6.jar
+# Waiting for refresh to finish
+# refresh ended
+# bundles administered [C:\Users\MyUser\git\Jasperreport-Osgi\my.sandbox.batikonly\generated\my.sandbox.batikonly.jar, C:\Users\MyUser\git\Jasperreport-Osgi\my.sandbox.repo\apache-felix\org.apache.felix.configadmin-1.8.12.jar, C:\Users\MyUser\git\Jasperreport-Osgi\my.sandbox.repo\apache-felix\org.apache.felix.gogo.command-0.16.0.jar, C:\Users\MyUser\git\Jasperreport-Osgi\my.sandbox.repo\apache-felix\org.apache.felix.gogo.runtime-0.16.2.jar, C:\Users\MyUser\git\Jasperreport-Osgi\my.sandbox.repo\apache-felix\org.apache.felix.metatype-1.1.2.jar, C:\Users\MyUser\git\Jasperreport-Osgi\my.sandbox.repo\jasperReports\org.apache.servicemix.bundles.batik\org.apache.servicemix.bundles.batik-1.9.0.jar, C:\Users\MyUser\git\Jasperreport-Osgi\my.sandbox.repo\jasperReports\org.apache.servicemix.bundles.bcel\org.apache.servicemix.bundles.bcel-5.2.0.jar, C:\Users\MyUser\git\Jasperreport-Osgi\my.sandbox.repo\jasperReports\org.apache.servicemix.bundles.xalan\org.apache.servicemix.bundles.xalan-2.7.2.jar, C:\Users\MyUser\git\Jasperreport-Osgi\my.sandbox.repo\jasperReports\org.apache.servicemix.bundles.xerces\org.apache.servicemix.bundles.xerces-2.11.0_1.jar, C:\Users\MyUser\git\Jasperreport-Osgi\my.sandbox.repo\jasperReports\org.apache.servicemix.bundles.xmlresolver\org.apache.servicemix.bundles.xmlresolver-1.2.0.jar, C:\Users\MyUser\git\Jasperreport-Osgi\my.sandbox.repo\jasperReports\org.apache.servicemix.specs.jaxp-api-1.4\org.apache.servicemix.specs.jaxp-api-1.4-2.7.0.jar, C:\Users\MyUser\git\Jasperreport-Osgi\my.sandbox.repo\apache-felix\org.apache.felix.eventadmin-1.4.8.jar, C:\Users\MyUser\git\Jasperreport-Osgi\my.sandbox.repo\apache-felix\org.apache.felix.scr-2.0.6.jar]
+# Will start bundles: [my.sandbox.batikonly_0.0.0 [1], org.apache.felix.configadmin_1.8.12 [2], org.apache.felix.gogo.command_0.16.0 [3], org.apache.felix.gogo.runtime_0.16.2 [4], org.apache.felix.metatype_1.1.2 [5], org.apache.servicemix.bundles.batik_1.9.0.1 [6], org.apache.servicemix.bundles.bcel_5.2.0.4 [7], org.apache.servicemix.bundles.xalan_2.7.2.3 [8], org.apache.servicemix.bundles.xerces_2.11.0.1 [9], org.apache.servicemix.bundles.xmlresolver_1.2.0.5 [10], org.apache.servicemix.specs.jaxp-api-1.4_2.7.0 [11], org.apache.felix.eventadmin_1.4.8 [12], org.apache.felix.scr_2.0.6 [13]]
+# starting my.sandbox.batikonly
+# started  my.sandbox.batikonly
+# starting org.apache.felix.configadmin
+# started  org.apache.felix.configadmin
+# starting org.apache.felix.gogo.command
+# started  org.apache.felix.gogo.command
+# starting org.apache.felix.gogo.runtime
+# started  org.apache.felix.gogo.runtime
+# starting org.apache.felix.metatype
+# started  org.apache.felix.metatype
+# starting org.apache.servicemix.bundles.batik
+# started  org.apache.servicemix.bundles.batik
+# starting org.apache.servicemix.bundles.bcel
+# started  org.apache.servicemix.bundles.bcel
+# starting org.apache.servicemix.bundles.xalan
+# started  org.apache.servicemix.bundles.xalan
+# starting org.apache.servicemix.bundles.xerces
+# started  org.apache.servicemix.bundles.xerces
+# starting org.apache.servicemix.bundles.xmlresolver
+# started  org.apache.servicemix.bundles.xmlresolver
+# starting org.apache.servicemix.specs.jaxp-api-1.4
+# started  org.apache.servicemix.specs.jaxp-api-1.4
+# starting org.apache.felix.eventadmin
+# started  org.apache.felix.eventadmin
+# starting org.apache.felix.scr
+activate
+# started  org.apache.felix.scr
+------------------------------- REPORT --------------------------
+
+Framework                               class org.eclipse.osgi.launch.Equinox
+Framework type                          META-INF/services
+Storage                                 C:\Users\MyUser\git\Jasperreport-Osgi\my.sandbox.batikonly\generated\fw
+Keep                                    false
+Security                                true
+Run bundles                             C:\Users\MyUser\git\Jasperreport-Osgi\my.sandbox.batikonly\generated\my.sandbox.batikonly.jar
+                                        C:\Users\MyUser\git\Jasperreport-Osgi\my.sandbox.repo\apache-felix\org.apache.felix.configadmin-1.8.12.jar
+                                        C:\Users\MyUser\git\Jasperreport-Osgi\my.sandbox.repo\apache-felix\org.apache.felix.gogo.command-0.16.0.jar
+                                        C:\Users\MyUser\git\Jasperreport-Osgi\my.sandbox.repo\apache-felix\org.apache.felix.gogo.runtime-0.16.2.jar
+                                        C:\Users\MyUser\git\Jasperreport-Osgi\my.sandbox.repo\apache-felix\org.apache.felix.metatype-1.1.2.jar
+                                        C:\Users\MyUser\git\Jasperreport-Osgi\my.sandbox.repo\jasperReports\org.apache.servicemix.bundles.batik\org.apache.servicemix.bundles.batik-1.9.0.jar
+                                        C:\Users\MyUser\git\Jasperreport-Osgi\my.sandbox.repo\jasperReports\org.apache.servicemix.bundles.bcel\org.apache.servicemix.bundles.bcel-5.2.0.jar
+                                        C:\Users\MyUser\git\Jasperreport-Osgi\my.sandbox.repo\jasperReports\org.apache.servicemix.bundles.xalan\org.apache.servicemix.bundles.xalan-2.7.2.jar
+                                        C:\Users\MyUser\git\Jasperreport-Osgi\my.sandbox.repo\jasperReports\org.apache.servicemix.bundles.xerces\org.apache.servicemix.bundles.xerces-2.11.0_1.jar
+                                        C:\Users\MyUser\git\Jasperreport-Osgi\my.sandbox.repo\jasperReports\org.apache.servicemix.bundles.xmlresolver\org.apache.servicemix.bundles.xmlresolver-1.2.0.jar
+                                        C:\Users\MyUser\git\Jasperreport-Osgi\my.sandbox.repo\jasperReports\org.apache.servicemix.specs.jaxp-api-1.4\org.apache.servicemix.specs.jaxp-api-1.4-2.7.0.jar
+                                        C:\Users\MyUser\git\Jasperreport-Osgi\my.sandbox.repo\apache-felix\org.apache.felix.eventadmin-1.4.8.jar
+                                        C:\Users\MyUser\git\Jasperreport-Osgi\my.sandbox.repo\apache-felix\org.apache.felix.scr-2.0.6.jar
+Java Home                               C:\Program Files\Java\jdk1.8.0_112\jre
+Classpath                               C:\Users\MyUser\git\Jasperreport-Osgi\my.sandbox.repo\apache-felix\org.eclipse.osgi_3.11.3.v20170209-1843.jar
+                                        C:\Users\MyUser\git\Jasperreport-Osgi\cnf\cache\3.4.0\bnd-cache\biz.aQute.launcher\biz.aQute.launcher-3.4.0.jar
+System Packages                         org.eclipse.core.runtime.adaptor;x-friends:="org.eclipse.core.runtime"
+                                        org.eclipse.core.runtime.internal.adaptor;x-internal:=true
+                                        org.eclipse.equinox.log;version="1.0"
+                                        org.eclipse.osgi.container;version="1.1"
+                                        org.eclipse.osgi.container.builders;version="1.0"
+                                        org.eclipse.osgi.container.namespaces;version="1.0"
+                                        org.eclipse.osgi.framework.console;version="1.1"
+                                        org.eclipse.osgi.framework.eventmgr;version="1.2"
+                                        org.eclipse.osgi.framework.internal.reliablefile;x-internal:=true
+                                        org.eclipse.osgi.framework.log;version="1.1"
+                                        org.eclipse.osgi.framework.util;x-internal:=true
+                                        org.eclipse.osgi.internal.debug;x-internal:=true
+                                        org.eclipse.osgi.internal.framework;x-internal:=true
+                                        org.eclipse.osgi.internal.hookregistry;x-friends:="org.eclipse.osgi.tests"
+                                        org.eclipse.osgi.internal.loader;x-internal:=true
+                                        org.eclipse.osgi.internal.loader.buddy;x-internal:=true
+                                        org.eclipse.osgi.internal.loader.classpath;x-internal:=true
+                                        org.eclipse.osgi.internal.loader.sources;x-internal:=true
+                                        org.eclipse.osgi.internal.location;x-internal:=true
+                                        org.eclipse.osgi.internal.messages;x-internal:=true
+                                        org.eclipse.osgi.internal.provisional.service.security;version="1.0.0";x-friends:="org.eclipse.equinox.security.ui"
+                                        org.eclipse.osgi.internal.provisional.verifier;x-friends:="org.eclipse.update.core
+                                        org.eclipse.ui.workbench
+                                        org.eclipse.equinox.p2.artifact.repository"
+                                        org.eclipse.osgi.internal.service.security;x-friends:="org.eclipse.equinox.security.ui"
+                                        org.eclipse.osgi.internal.serviceregistry;x-internal:=true
+                                        org.eclipse.osgi.internal.signedcontent;x-internal:=true
+                                        org.eclipse.osgi.internal.url;x-internal:=true
+                                        org.eclipse.osgi.launch;version="1.0"
+                                        org.eclipse.osgi.report.resolution;version="1.0"
+                                        org.eclipse.osgi.service.datalocation;version="1.3"
+                                        org.eclipse.osgi.service.debug;version="1.2"
+                                        org.eclipse.osgi.service.environment;version="1.3"
+                                        org.eclipse.osgi.service.localization;version="1.1"
+                                        org.eclipse.osgi.service.pluginconversion;version="1.0"
+                                        org.eclipse.osgi.service.resolver;version="1.6"
+                                        org.eclipse.osgi.service.runnable;version="1.1"
+                                        org.eclipse.osgi.service.security;version="1.0"
+                                        org.eclipse.osgi.service.urlconversion;version="1.0"
+                                        org.eclipse.osgi.signedcontent;version="1.0"
+                                        org.eclipse.osgi.storage;x-friends:="org.eclipse.osgi.tests"
+                                        org.eclipse.osgi.storage.bundlefile;x-internal:=true
+                                        org.eclipse.osgi.storage.url.reference;x-internal:=true
+                                        org.eclipse.osgi.storagemanager;version="1.0"
+                                        org.eclipse.osgi.util;version="1.1"
+                                        org.osgi.dto;version="1.0"
+                                        org.osgi.framework;version="1.8"
+                                        org.osgi.framework.dto;version="1.8"
+                                        org.osgi.framework.hooks.bundle;version="1.1"
+                                        org.osgi.framework.hooks.resolver;version="1.0"
+                                        org.osgi.framework.hooks.service;version="1.1"
+                                        org.osgi.framework.hooks.weaving;version="1.1"
+                                        org.osgi.framework.launch;version="1.2"
+                                        org.osgi.framework.namespace;version="1.1"
+                                        org.osgi.framework.startlevel;version="1.0"
+                                        org.osgi.framework.startlevel.dto;version="1.0"
+                                        org.osgi.framework.wiring;version="1.2"
+                                        org.osgi.framework.wiring.dto;version="1.2"
+                                        org.osgi.resource;version="1.0"
+                                        org.osgi.resource.dto;version="1.0"
+                                        org.osgi.service.condpermadmin;version="1.1.1"
+                                        org.osgi.service.log;version="1.3"
+                                        org.osgi.service.packageadmin;version="1.2"
+                                        org.osgi.service.permissionadmin;version="1.2"
+                                        org.osgi.service.resolver;version="1.0.1"
+                                        org.osgi.service.startlevel;version="1.1"
+                                        org.osgi.service.url;version="1.0"
+                                        org.osgi.util.tracker;version="1.5.1"
+System Capabilities                     osgi.ee;osgi.ee=JavaSE;version="1.1"
+Properties                              
+launch.name                             JaxpXercesXalanBaticEquinox.bndrun
+launch.noreferences                     false
+launch.trace                            true
+launch.notificationPort                 64010
+launch.system.capabilities              osgi.ee;osgi.ee=JavaSE;version="1.1"
+launch.services                         true
+launch.activators                       
+launch.system.packages                  org.eclipse.core.runtime.adaptor;x-friends:="org.eclipse.core.runtime",org.eclipse.core.runtime.internal.adaptor;x-internal:=true,org.eclipse.equinox.log;version="1.0",org.eclipse.osgi.container;version="1.1",org.eclipse.osgi.container.builders;version="1.0",org.eclipse.osgi.container.namespaces;version="1.0",org.eclipse.osgi.framework.console;version="1.1",org.eclipse.osgi.framework.eventmgr;version="1.2",org.eclipse.osgi.framework.internal.reliablefile;x-internal:=true,org.eclipse.osgi.framework.log;version="1.1",org.eclipse.osgi.framework.util;x-internal:=true,org.eclipse.osgi.internal.debug;x-internal:=true,org.eclipse.osgi.internal.framework;x-internal:=true,org.eclipse.osgi.internal.hookregistry;x-friends:="org.eclipse.osgi.tests",org.eclipse.osgi.internal.loader;x-internal:=true,org.eclipse.osgi.internal.loader.buddy;x-internal:=true,org.eclipse.osgi.internal.loader.classpath;x-internal:=true,org.eclipse.osgi.internal.loader.sources;x-internal:=true,org.eclipse.osgi.internal.location;x-internal:=true,org.eclipse.osgi.internal.messages;x-internal:=true,org.eclipse.osgi.internal.provisional.service.security;version="1.0.0";x-friends:="org.eclipse.equinox.security.ui",org.eclipse.osgi.internal.provisional.verifier;x-friends:="org.eclipse.update.core,org.eclipse.ui.workbench,org.eclipse.equinox.p2.artifact.repository",org.eclipse.osgi.internal.service.security;x-friends:="org.eclipse.equinox.security.ui",org.eclipse.osgi.internal.serviceregistry;x-internal:=true,org.eclipse.osgi.internal.signedcontent;x-internal:=true,org.eclipse.osgi.internal.url;x-internal:=true,org.eclipse.osgi.launch;version="1.0",org.eclipse.osgi.report.resolution;version="1.0",org.eclipse.osgi.service.datalocation;version="1.3",org.eclipse.osgi.service.debug;version="1.2",org.eclipse.osgi.service.environment;version="1.3",org.eclipse.osgi.service.localization;version="1.1",org.eclipse.osgi.service.pluginconversion;version="1.0",org.eclipse.osgi.service.resolver;version="1.6",org.eclipse.osgi.service.runnable;version="1.1",org.eclipse.osgi.service.security;version="1.0",org.eclipse.osgi.service.urlconversion;version="1.0",org.eclipse.osgi.signedcontent;version="1.0",org.eclipse.osgi.storage;x-friends:="org.eclipse.osgi.tests",org.eclipse.osgi.storage.bundlefile;x-internal:=true,org.eclipse.osgi.storage.url.reference;x-internal:=true,org.eclipse.osgi.storagemanager;version="1.0",org.eclipse.osgi.util;version="1.1",org.osgi.dto;version="1.0",org.osgi.framework;version="1.8",org.osgi.framework.dto;version="1.8",org.osgi.framework.hooks.bundle;version="1.1",org.osgi.framework.hooks.resolver;version="1.0",org.osgi.framework.hooks.service;version="1.1",org.osgi.framework.hooks.weaving;version="1.1",org.osgi.framework.launch;version="1.2",org.osgi.framework.namespace;version="1.1",org.osgi.framework.startlevel;version="1.0",org.osgi.framework.startlevel.dto;version="1.0",org.osgi.framework.wiring;version="1.2",org.osgi.framework.wiring.dto;version="1.2",org.osgi.resource;version="1.0",org.osgi.resource.dto;version="1.0",org.osgi.service.condpermadmin;version="1.1.1",org.osgi.service.log;version="1.3",org.osgi.service.packageadmin;version="1.2",org.osgi.service.permissionadmin;version="1.2",org.osgi.service.resolver;version="1.0.1",org.osgi.service.startlevel;version="1.1",org.osgi.service.url;version="1.0",org.osgi.util.tracker;version="1.5.1"
+launch.timeout                          0
+launch.embedded                         false
+launch.storage.dir                      C:\Users\MyUser\git\Jasperreport-Osgi\my.sandbox.batikonly\generated\fw
+launch.bundles                          C:\Users\MyUser\git\Jasperreport-Osgi\my.sandbox.batikonly\generated\my.sandbox.batikonly.jar,C:\Users\MyUser\git\Jasperreport-Osgi\my.sandbox.repo\apache-felix\org.apache.felix.configadmin-1.8.12.jar,C:\Users\MyUser\git\Jasperreport-Osgi\my.sandbox.repo\apache-felix\org.apache.felix.gogo.command-0.16.0.jar,C:\Users\MyUser\git\Jasperreport-Osgi\my.sandbox.repo\apache-felix\org.apache.felix.gogo.runtime-0.16.2.jar,C:\Users\MyUser\git\Jasperreport-Osgi\my.sandbox.repo\apache-felix\org.apache.felix.metatype-1.1.2.jar,C:\Users\MyUser\git\Jasperreport-Osgi\my.sandbox.repo\jasperReports\org.apache.servicemix.bundles.batik\org.apache.servicemix.bundles.batik-1.9.0.jar,C:\Users\MyUser\git\Jasperreport-Osgi\my.sandbox.repo\jasperReports\org.apache.servicemix.bundles.bcel\org.apache.servicemix.bundles.bcel-5.2.0.jar,C:\Users\MyUser\git\Jasperreport-Osgi\my.sandbox.repo\jasperReports\org.apache.servicemix.bundles.xalan\org.apache.servicemix.bundles.xalan-2.7.2.jar,C:\Users\MyUser\git\Jasperreport-Osgi\my.sandbox.repo\jasperReports\org.apache.servicemix.bundles.xerces\org.apache.servicemix.bundles.xerces-2.11.0_1.jar,C:\Users\MyUser\git\Jasperreport-Osgi\my.sandbox.repo\jasperReports\org.apache.servicemix.bundles.xmlresolver\org.apache.servicemix.bundles.xmlresolver-1.2.0.jar,C:\Users\MyUser\git\Jasperreport-Osgi\my.sandbox.repo\jasperReports\org.apache.servicemix.specs.jaxp-api-1.4\org.apache.servicemix.specs.jaxp-api-1.4-2.7.0.jar,C:\Users\MyUser\git\Jasperreport-Osgi\my.sandbox.repo\apache-felix\org.apache.felix.eventadmin-1.4.8.jar,C:\Users\MyUser\git\Jasperreport-Osgi\my.sandbox.repo\apache-felix\org.apache.felix.scr-2.0.6.jar
+launch.keep                             false
+
+Id    State Modified      Location
+0     ACTIV <>            System Bundle
+1     ACTIV <>            file:/C:/Users/MyUser/git/Jasperreport-Osgi/my.sandbox.batikonly/generated/my.sandbox.batikonly.jar
+2     ACTIV <>            file:/C:/Users/MyUser/git/Jasperreport-Osgi/my.sandbox.repo/apache-felix/org.apache.felix.configadmin-1.8.12.jar
+3     ACTIV <>            file:/C:/Users/MyUser/git/Jasperreport-Osgi/my.sandbox.repo/apache-felix/org.apache.felix.gogo.command-0.16.0.jar
+4     ACTIV <>            file:/C:/Users/MyUser/git/Jasperreport-Osgi/my.sandbox.repo/apache-felix/org.apache.felix.gogo.runtime-0.16.2.jar
+5     ACTIV <>            file:/C:/Users/MyUser/git/Jasperreport-Osgi/my.sandbox.repo/apache-felix/org.apache.felix.metatype-1.1.2.jar
+6     ACTIV <>            file:/C:/Users/MyUser/git/Jasperreport-Osgi/my.sandbox.repo/jasperReports/org.apache.servicemix.bundles.batik/org.apache.servicemix.bundles.batik-1.9.0.jar
+7     ACTIV <>            file:/C:/Users/MyUser/git/Jasperreport-Osgi/my.sandbox.repo/jasperReports/org.apache.servicemix.bundles.bcel/org.apache.servicemix.bundles.bcel-5.2.0.jar
+8     ACTIV <>            file:/C:/Users/MyUser/git/Jasperreport-Osgi/my.sandbox.repo/jasperReports/org.apache.servicemix.bundles.xalan/org.apache.servicemix.bundles.xalan-2.7.2.jar
+9     ACTIV <>            file:/C:/Users/MyUser/git/Jasperreport-Osgi/my.sandbox.repo/jasperReports/org.apache.servicemix.bundles.xerces/org.apache.servicemix.bundles.xerces-2.11.0_1.jar
+10    ACTIV <>            file:/C:/Users/MyUser/git/Jasperreport-Osgi/my.sandbox.repo/jasperReports/org.apache.servicemix.bundles.xmlresolver/org.apache.servicemix.bundles.xmlresolver-1.2.0.jar
+11    ACTIV <>            file:/C:/Users/MyUser/git/Jasperreport-Osgi/my.sandbox.repo/jasperReports/org.apache.servicemix.specs.jaxp-api-1.4/org.apache.servicemix.specs.jaxp-api-1.4-2.7.0.jar
+12    ACTIV <>            file:/C:/Users/MyUser/git/Jasperreport-Osgi/my.sandbox.repo/apache-felix/org.apache.felix.eventadmin-1.4.8.jar
+13    ACTIV <>            file:/C:/Users/MyUser/git/Jasperreport-Osgi/my.sandbox.repo/apache-felix/org.apache.felix.scr-2.0.6.jar
+# framework=org.eclipse.osgi.launch.Equinox@10e92f8f
+# registered launcher with arguments for syncing
+# will wait for a registered Runnable
