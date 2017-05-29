@@ -1,0 +1,147 @@
+# properties {launch.name=JaxpXercesXalanBaticFelix2.bndrun, launch.noreferences=false, launch.trace=true, launch.notificationPort=58231, launch.system.capabilities=osgi.ee;osgi.ee=JavaSE;version="1.1", launch.services=true, launch.activators=, launch.system.packages=org.w3c.dom.traversal,org.osgi.framework;version="1.8",org.osgi.framework.dto;version="1.8";uses:="org.osgi.dto",org.osgi.framework.hooks.bundle;version="1.1";uses:="org.osgi.framework",org.osgi.framework.hooks.resolver;version="1.0";uses:="org.osgi.framework.wiring",org.osgi.framework.hooks.service;version="1.1";uses:="org.osgi.framework",org.osgi.framework.hooks.weaving;version="1.1";uses:="org.osgi.framework.wiring",org.osgi.framework.launch;version="1.2";uses:="org.osgi.framework",org.osgi.framework.namespace;version="1.1";uses:="org.osgi.resource",org.osgi.framework.startlevel;version="1.0";uses:="org.osgi.framework",org.osgi.framework.startlevel.dto;version="1.0";uses:="org.osgi.dto",org.osgi.framework.wiring;version="1.2";uses:="org.osgi.framework,org.osgi.resource",org.osgi.framework.wiring.dto;version="1.2";uses:="org.osgi.dto,org.osgi.resource.dto",org.osgi.resource;version="1.0",org.osgi.resource.dto;version="1.0";uses:="org.osgi.dto",org.osgi.service.packageadmin;version="1.2";uses:="org.osgi.framework",org.osgi.service.startlevel;version="1.1";uses:="org.osgi.framework",org.osgi.service.url;version="1.0",org.osgi.service.resolver;version="1.0";uses:="org.osgi.resource",org.osgi.util.tracker;version="1.5.1";uses:="org.osgi.framework",org.osgi.dto;version="1.0", launch.timeout=0, launch.embedded=false, launch.storage.dir=C:\Users\rotgrau\git\Jasperreport-Osgi\my.sandbox.batikonly\generated\fw, launch.bundles=C:\Users\rotgrau\git\Jasperreport-Osgi\my.sandbox.batikonly\generated\my.sandbox.batikonly.jar,C:\Users\rotgrau\git\Jasperreport-Osgi\my.sandbox.repo\apache-felix\org.apache.felix.configadmin-1.8.12.jar,C:\Users\rotgrau\git\Jasperreport-Osgi\my.sandbox.repo\apache-felix\org.apache.felix.gogo.command-0.16.0.jar,C:\Users\rotgrau\git\Jasperreport-Osgi\my.sandbox.repo\apache-felix\org.apache.felix.gogo.runtime-0.16.2.jar,C:\Users\rotgrau\git\Jasperreport-Osgi\my.sandbox.repo\apache-felix\org.apache.felix.metatype-1.1.2.jar,C:\Users\rotgrau\git\Jasperreport-Osgi\my.sandbox.repo\jasperReports\org.apache.servicemix.bundles.batik\org.apache.servicemix.bundles.batik-1.9.0.jar,C:\Users\rotgrau\git\Jasperreport-Osgi\my.sandbox.repo\jasperReports\org.apache.servicemix.bundles.bcel\org.apache.servicemix.bundles.bcel-5.2.0.jar,C:\Users\rotgrau\git\Jasperreport-Osgi\my.sandbox.repo\jasperReports\org.apache.servicemix.bundles.xalan\org.apache.servicemix.bundles.xalan-2.7.2.jar,C:\Users\rotgrau\git\Jasperreport-Osgi\my.sandbox.repo\jasperReports\org.apache.servicemix.bundles.xerces\org.apache.servicemix.bundles.xerces-2.11.0_1.jar,C:\Users\rotgrau\git\Jasperreport-Osgi\my.sandbox.repo\jasperReports\org.apache.servicemix.bundles.xmlresolver\org.apache.servicemix.bundles.xmlresolver-1.2.0.jar,C:\Users\rotgrau\git\Jasperreport-Osgi\my.sandbox.repo\apache-felix\org.apache.felix.eventadmin-1.4.8.jar,C:\Users\rotgrau\git\Jasperreport-Osgi\my.sandbox.repo\apache-felix\org.apache.felix.scr-2.0.6.jar, launch.keep=false}
+# inited runbundles=[C:\Users\rotgrau\git\Jasperreport-Osgi\my.sandbox.batikonly\generated\my.sandbox.batikonly.jar, C:\Users\rotgrau\git\Jasperreport-Osgi\my.sandbox.repo\apache-felix\org.apache.felix.configadmin-1.8.12.jar, C:\Users\rotgrau\git\Jasperreport-Osgi\my.sandbox.repo\apache-felix\org.apache.felix.gogo.command-0.16.0.jar, C:\Users\rotgrau\git\Jasperreport-Osgi\my.sandbox.repo\apache-felix\org.apache.felix.gogo.runtime-0.16.2.jar, C:\Users\rotgrau\git\Jasperreport-Osgi\my.sandbox.repo\apache-felix\org.apache.felix.metatype-1.1.2.jar, C:\Users\rotgrau\git\Jasperreport-Osgi\my.sandbox.repo\jasperReports\org.apache.servicemix.bundles.batik\org.apache.servicemix.bundles.batik-1.9.0.jar, C:\Users\rotgrau\git\Jasperreport-Osgi\my.sandbox.repo\jasperReports\org.apache.servicemix.bundles.bcel\org.apache.servicemix.bundles.bcel-5.2.0.jar, C:\Users\rotgrau\git\Jasperreport-Osgi\my.sandbox.repo\jasperReports\org.apache.servicemix.bundles.xalan\org.apache.servicemix.bundles.xalan-2.7.2.jar, C:\Users\rotgrau\git\Jasperreport-Osgi\my.sandbox.repo\jasperReports\org.apache.servicemix.bundles.xerces\org.apache.servicemix.bundles.xerces-2.11.0_1.jar, C:\Users\rotgrau\git\Jasperreport-Osgi\my.sandbox.repo\jasperReports\org.apache.servicemix.bundles.xmlresolver\org.apache.servicemix.bundles.xmlresolver-1.2.0.jar, C:\Users\rotgrau\git\Jasperreport-Osgi\my.sandbox.repo\apache-felix\org.apache.felix.eventadmin-1.4.8.jar, C:\Users\rotgrau\git\Jasperreport-Osgi\my.sandbox.repo\apache-felix\org.apache.felix.scr-2.0.6.jar] activators=[] timeout=0 properties=<no more arguments>
+# version org.apache.felix.framework;version=5.6.4, biz.aQute.launcher;version=3.4.0.201705251417-SNAPSHOT
+# using working dir: C:\Users\rotgrau\git\Jasperreport-Osgi\my.sandbox.batikonly\generated\fw with keeping=false
+# deleting working dir C:\Users\rotgrau\git\Jasperreport-Osgi\my.sandbox.batikonly\generated\fw because not kept
+# system packages used: org.w3c.dom.traversal,org.osgi.framework;version="1.8",org.osgi.framework.dto;version="1.8";uses:="org.osgi.dto",org.osgi.framework.hooks.bundle;version="1.1";uses:="org.osgi.framework",org.osgi.framework.hooks.resolver;version="1.0";uses:="org.osgi.framework.wiring",org.osgi.framework.hooks.service;version="1.1";uses:="org.osgi.framework",org.osgi.framework.hooks.weaving;version="1.1";uses:="org.osgi.framework.wiring",org.osgi.framework.launch;version="1.2";uses:="org.osgi.framework",org.osgi.framework.namespace;version="1.1";uses:="org.osgi.resource",org.osgi.framework.startlevel;version="1.0";uses:="org.osgi.framework",org.osgi.framework.startlevel.dto;version="1.0";uses:="org.osgi.dto",org.osgi.framework.wiring;version="1.2";uses:="org.osgi.framework,org.osgi.resource",org.osgi.framework.wiring.dto;version="1.2";uses:="org.osgi.dto,org.osgi.resource.dto",org.osgi.resource;version="1.0",org.osgi.resource.dto;version="1.0";uses:="org.osgi.dto",org.osgi.service.packageadmin;version="1.2";uses:="org.osgi.framework",org.osgi.service.startlevel;version="1.1";uses:="org.osgi.framework",org.osgi.service.url;version="1.0",org.osgi.service.resolver;version="1.0";uses:="org.osgi.resource",org.osgi.util.tracker;version="1.5.1";uses:="org.osgi.framework",org.osgi.dto;version="1.0"
+# system capabilities used: osgi.ee;osgi.ee=JavaSE;version="1.1"
+# using META-INF/services
+# found META-INF/services in jar:file:/C:/Users/rotgrau/git/Jasperreport-Osgi/my.sandbox.repo/apache-felix/org.apache.felix.framework-5.6.4.jar!/META-INF/services/org.osgi.framework.launch.FrameworkFactory
+# org.apache.felix.framework.FrameworkFactory
+# Framework factory org.apache.felix.framework.FrameworkFactory@28a418fc
+# framework instance org.apache.felix.framework [0]
+# inited system bundle org.apache.felix.framework [0]
+# system bundle started ok
+# start embedded activators
+# Updating framework with [C:\Users\rotgrau\git\Jasperreport-Osgi\my.sandbox.batikonly\generated\my.sandbox.batikonly.jar, C:\Users\rotgrau\git\Jasperreport-Osgi\my.sandbox.repo\apache-felix\org.apache.felix.configadmin-1.8.12.jar, C:\Users\rotgrau\git\Jasperreport-Osgi\my.sandbox.repo\apache-felix\org.apache.felix.gogo.command-0.16.0.jar, C:\Users\rotgrau\git\Jasperreport-Osgi\my.sandbox.repo\apache-felix\org.apache.felix.gogo.runtime-0.16.2.jar, C:\Users\rotgrau\git\Jasperreport-Osgi\my.sandbox.repo\apache-felix\org.apache.felix.metatype-1.1.2.jar, C:\Users\rotgrau\git\Jasperreport-Osgi\my.sandbox.repo\jasperReports\org.apache.servicemix.bundles.batik\org.apache.servicemix.bundles.batik-1.9.0.jar, C:\Users\rotgrau\git\Jasperreport-Osgi\my.sandbox.repo\jasperReports\org.apache.servicemix.bundles.bcel\org.apache.servicemix.bundles.bcel-5.2.0.jar, C:\Users\rotgrau\git\Jasperreport-Osgi\my.sandbox.repo\jasperReports\org.apache.servicemix.bundles.xalan\org.apache.servicemix.bundles.xalan-2.7.2.jar, C:\Users\rotgrau\git\Jasperreport-Osgi\my.sandbox.repo\jasperReports\org.apache.servicemix.bundles.xerces\org.apache.servicemix.bundles.xerces-2.11.0_1.jar, C:\Users\rotgrau\git\Jasperreport-Osgi\my.sandbox.repo\jasperReports\org.apache.servicemix.bundles.xmlresolver\org.apache.servicemix.bundles.xmlresolver-1.2.0.jar, C:\Users\rotgrau\git\Jasperreport-Osgi\my.sandbox.repo\apache-felix\org.apache.felix.eventadmin-1.4.8.jar, C:\Users\rotgrau\git\Jasperreport-Osgi\my.sandbox.repo\apache-felix\org.apache.felix.scr-2.0.6.jar]
+# installing C:\Users\rotgrau\git\Jasperreport-Osgi\my.sandbox.batikonly\generated\my.sandbox.batikonly.jar
+# no reference: url false
+# installing C:\Users\rotgrau\git\Jasperreport-Osgi\my.sandbox.repo\apache-felix\org.apache.felix.configadmin-1.8.12.jar
+# no reference: url false
+# installing C:\Users\rotgrau\git\Jasperreport-Osgi\my.sandbox.repo\apache-felix\org.apache.felix.gogo.command-0.16.0.jar
+# no reference: url false
+# installing C:\Users\rotgrau\git\Jasperreport-Osgi\my.sandbox.repo\apache-felix\org.apache.felix.gogo.runtime-0.16.2.jar
+# no reference: url false
+# installing C:\Users\rotgrau\git\Jasperreport-Osgi\my.sandbox.repo\apache-felix\org.apache.felix.metatype-1.1.2.jar
+# no reference: url false
+# installing C:\Users\rotgrau\git\Jasperreport-Osgi\my.sandbox.repo\jasperReports\org.apache.servicemix.bundles.batik\org.apache.servicemix.bundles.batik-1.9.0.jar
+# no reference: url false
+# installing C:\Users\rotgrau\git\Jasperreport-Osgi\my.sandbox.repo\jasperReports\org.apache.servicemix.bundles.bcel\org.apache.servicemix.bundles.bcel-5.2.0.jar
+# no reference: url false
+# installing C:\Users\rotgrau\git\Jasperreport-Osgi\my.sandbox.repo\jasperReports\org.apache.servicemix.bundles.xalan\org.apache.servicemix.bundles.xalan-2.7.2.jar
+# no reference: url false
+# installing C:\Users\rotgrau\git\Jasperreport-Osgi\my.sandbox.repo\jasperReports\org.apache.servicemix.bundles.xerces\org.apache.servicemix.bundles.xerces-2.11.0_1.jar
+# no reference: url false
+# installing C:\Users\rotgrau\git\Jasperreport-Osgi\my.sandbox.repo\jasperReports\org.apache.servicemix.bundles.xmlresolver\org.apache.servicemix.bundles.xmlresolver-1.2.0.jar
+# no reference: url false
+# installing C:\Users\rotgrau\git\Jasperreport-Osgi\my.sandbox.repo\apache-felix\org.apache.felix.eventadmin-1.4.8.jar
+# no reference: url false
+# installing C:\Users\rotgrau\git\Jasperreport-Osgi\my.sandbox.repo\apache-felix\org.apache.felix.scr-2.0.6.jar
+# no reference: url false
+# Waiting for refresh to finish
+# refresh ended
+# bundles administered [C:\Users\rotgrau\git\Jasperreport-Osgi\my.sandbox.batikonly\generated\my.sandbox.batikonly.jar, C:\Users\rotgrau\git\Jasperreport-Osgi\my.sandbox.repo\apache-felix\org.apache.felix.configadmin-1.8.12.jar, C:\Users\rotgrau\git\Jasperreport-Osgi\my.sandbox.repo\apache-felix\org.apache.felix.gogo.command-0.16.0.jar, C:\Users\rotgrau\git\Jasperreport-Osgi\my.sandbox.repo\apache-felix\org.apache.felix.gogo.runtime-0.16.2.jar, C:\Users\rotgrau\git\Jasperreport-Osgi\my.sandbox.repo\apache-felix\org.apache.felix.metatype-1.1.2.jar, C:\Users\rotgrau\git\Jasperreport-Osgi\my.sandbox.repo\jasperReports\org.apache.servicemix.bundles.batik\org.apache.servicemix.bundles.batik-1.9.0.jar, C:\Users\rotgrau\git\Jasperreport-Osgi\my.sandbox.repo\jasperReports\org.apache.servicemix.bundles.bcel\org.apache.servicemix.bundles.bcel-5.2.0.jar, C:\Users\rotgrau\git\Jasperreport-Osgi\my.sandbox.repo\jasperReports\org.apache.servicemix.bundles.xalan\org.apache.servicemix.bundles.xalan-2.7.2.jar, C:\Users\rotgrau\git\Jasperreport-Osgi\my.sandbox.repo\jasperReports\org.apache.servicemix.bundles.xerces\org.apache.servicemix.bundles.xerces-2.11.0_1.jar, C:\Users\rotgrau\git\Jasperreport-Osgi\my.sandbox.repo\jasperReports\org.apache.servicemix.bundles.xmlresolver\org.apache.servicemix.bundles.xmlresolver-1.2.0.jar, C:\Users\rotgrau\git\Jasperreport-Osgi\my.sandbox.repo\apache-felix\org.apache.felix.eventadmin-1.4.8.jar, C:\Users\rotgrau\git\Jasperreport-Osgi\my.sandbox.repo\apache-felix\org.apache.felix.scr-2.0.6.jar]
+# Will start bundles: [my.sandbox.batikonly [1], org.apache.felix.configadmin [2], org.apache.felix.gogo.command [3], org.apache.felix.gogo.runtime [4], org.apache.felix.metatype [5], org.apache.servicemix.bundles.batik [6], org.apache.servicemix.bundles.bcel [7], org.apache.servicemix.bundles.xalan [8], org.apache.servicemix.bundles.xerces [9], org.apache.servicemix.bundles.xmlresolver [10], org.apache.felix.eventadmin [11], org.apache.felix.scr [12]]
+# starting my.sandbox.batikonly
+# started  my.sandbox.batikonly
+# starting org.apache.felix.configadmin
+# started  org.apache.felix.configadmin
+# starting org.apache.felix.gogo.command
+# started  org.apache.felix.gogo.command
+# starting org.apache.felix.gogo.runtime
+# started  org.apache.felix.gogo.runtime
+# starting org.apache.felix.metatype
+# started  org.apache.felix.metatype
+# starting org.apache.servicemix.bundles.batik
+# started  org.apache.servicemix.bundles.batik
+# starting org.apache.servicemix.bundles.bcel
+# started  org.apache.servicemix.bundles.bcel
+# starting org.apache.servicemix.bundles.xalan
+# started  org.apache.servicemix.bundles.xalan
+# starting org.apache.servicemix.bundles.xerces
+# started  org.apache.servicemix.bundles.xerces
+# starting org.apache.servicemix.bundles.xmlresolver
+# started  org.apache.servicemix.bundles.xmlresolver
+# starting org.apache.felix.eventadmin
+# started  org.apache.felix.eventadmin
+# starting org.apache.felix.scr
+activate
+# started  org.apache.felix.scr
+------------------------------- REPORT --------------------------
+
+Framework                               class org.apache.felix.framework.Felix
+Framework type                          META-INF/services
+Storage                                 C:\Users\rotgrau\git\Jasperreport-Osgi\my.sandbox.batikonly\generated\fw
+Keep                                    false
+Security                                false
+Run bundles                             C:\Users\rotgrau\git\Jasperreport-Osgi\my.sandbox.batikonly\generated\my.sandbox.batikonly.jar
+                                        C:\Users\rotgrau\git\Jasperreport-Osgi\my.sandbox.repo\apache-felix\org.apache.felix.configadmin-1.8.12.jar
+                                        C:\Users\rotgrau\git\Jasperreport-Osgi\my.sandbox.repo\apache-felix\org.apache.felix.gogo.command-0.16.0.jar
+                                        C:\Users\rotgrau\git\Jasperreport-Osgi\my.sandbox.repo\apache-felix\org.apache.felix.gogo.runtime-0.16.2.jar
+                                        C:\Users\rotgrau\git\Jasperreport-Osgi\my.sandbox.repo\apache-felix\org.apache.felix.metatype-1.1.2.jar
+                                        C:\Users\rotgrau\git\Jasperreport-Osgi\my.sandbox.repo\jasperReports\org.apache.servicemix.bundles.batik\org.apache.servicemix.bundles.batik-1.9.0.jar
+                                        C:\Users\rotgrau\git\Jasperreport-Osgi\my.sandbox.repo\jasperReports\org.apache.servicemix.bundles.bcel\org.apache.servicemix.bundles.bcel-5.2.0.jar
+                                        C:\Users\rotgrau\git\Jasperreport-Osgi\my.sandbox.repo\jasperReports\org.apache.servicemix.bundles.xalan\org.apache.servicemix.bundles.xalan-2.7.2.jar
+                                        C:\Users\rotgrau\git\Jasperreport-Osgi\my.sandbox.repo\jasperReports\org.apache.servicemix.bundles.xerces\org.apache.servicemix.bundles.xerces-2.11.0_1.jar
+                                        C:\Users\rotgrau\git\Jasperreport-Osgi\my.sandbox.repo\jasperReports\org.apache.servicemix.bundles.xmlresolver\org.apache.servicemix.bundles.xmlresolver-1.2.0.jar
+                                        C:\Users\rotgrau\git\Jasperreport-Osgi\my.sandbox.repo\apache-felix\org.apache.felix.eventadmin-1.4.8.jar
+                                        C:\Users\rotgrau\git\Jasperreport-Osgi\my.sandbox.repo\apache-felix\org.apache.felix.scr-2.0.6.jar
+Java Home                               C:\Program Files\Java\jdk1.8.0_112\jre
+Classpath                               C:\Users\rotgrau\git\Jasperreport-Osgi\my.sandbox.repo\apache-felix\org.apache.felix.framework-5.6.4.jar
+                                        C:\Users\rotgrau\git\Jasperreport-Osgi\cnf\cache\3.4.0\bnd-cache\biz.aQute.launcher\biz.aQute.launcher-3.4.0.jar
+System Packages                         org.w3c.dom.traversal
+                                        org.osgi.framework;version="1.8"
+                                        org.osgi.framework.dto;version="1.8";uses:="org.osgi.dto"
+                                        org.osgi.framework.hooks.bundle;version="1.1";uses:="org.osgi.framework"
+                                        org.osgi.framework.hooks.resolver;version="1.0";uses:="org.osgi.framework.wiring"
+                                        org.osgi.framework.hooks.service;version="1.1";uses:="org.osgi.framework"
+                                        org.osgi.framework.hooks.weaving;version="1.1";uses:="org.osgi.framework.wiring"
+                                        org.osgi.framework.launch;version="1.2";uses:="org.osgi.framework"
+                                        org.osgi.framework.namespace;version="1.1";uses:="org.osgi.resource"
+                                        org.osgi.framework.startlevel;version="1.0";uses:="org.osgi.framework"
+                                        org.osgi.framework.startlevel.dto;version="1.0";uses:="org.osgi.dto"
+                                        org.osgi.framework.wiring;version="1.2";uses:="org.osgi.framework
+                                        org.osgi.resource"
+                                        org.osgi.framework.wiring.dto;version="1.2";uses:="org.osgi.dto
+                                        org.osgi.resource.dto"
+                                        org.osgi.resource;version="1.0"
+                                        org.osgi.resource.dto;version="1.0";uses:="org.osgi.dto"
+                                        org.osgi.service.packageadmin;version="1.2";uses:="org.osgi.framework"
+                                        org.osgi.service.startlevel;version="1.1";uses:="org.osgi.framework"
+                                        org.osgi.service.url;version="1.0"
+                                        org.osgi.service.resolver;version="1.0";uses:="org.osgi.resource"
+                                        org.osgi.util.tracker;version="1.5.1";uses:="org.osgi.framework"
+                                        org.osgi.dto;version="1.0"
+System Capabilities                     osgi.ee;osgi.ee=JavaSE;version="1.1"
+Properties                              
+launch.name                             JaxpXercesXalanBaticFelix2.bndrun
+launch.noreferences                     false
+launch.trace                            true
+launch.notificationPort                 58231
+launch.system.capabilities              osgi.ee;osgi.ee=JavaSE;version="1.1"
+launch.services                         true
+launch.activators                       
+launch.system.packages                  org.w3c.dom.traversal,org.osgi.framework;version="1.8",org.osgi.framework.dto;version="1.8";uses:="org.osgi.dto",org.osgi.framework.hooks.bundle;version="1.1";uses:="org.osgi.framework",org.osgi.framework.hooks.resolver;version="1.0";uses:="org.osgi.framework.wiring",org.osgi.framework.hooks.service;version="1.1";uses:="org.osgi.framework",org.osgi.framework.hooks.weaving;version="1.1";uses:="org.osgi.framework.wiring",org.osgi.framework.launch;version="1.2";uses:="org.osgi.framework",org.osgi.framework.namespace;version="1.1";uses:="org.osgi.resource",org.osgi.framework.startlevel;version="1.0";uses:="org.osgi.framework",org.osgi.framework.startlevel.dto;version="1.0";uses:="org.osgi.dto",org.osgi.framework.wiring;version="1.2";uses:="org.osgi.framework,org.osgi.resource",org.osgi.framework.wiring.dto;version="1.2";uses:="org.osgi.dto,org.osgi.resource.dto",org.osgi.resource;version="1.0",org.osgi.resource.dto;version="1.0";uses:="org.osgi.dto",org.osgi.service.packageadmin;version="1.2";uses:="org.osgi.framework",org.osgi.service.startlevel;version="1.1";uses:="org.osgi.framework",org.osgi.service.url;version="1.0",org.osgi.service.resolver;version="1.0";uses:="org.osgi.resource",org.osgi.util.tracker;version="1.5.1";uses:="org.osgi.framework",org.osgi.dto;version="1.0"
+launch.timeout                          0
+launch.embedded                         false
+launch.storage.dir                      C:\Users\rotgrau\git\Jasperreport-Osgi\my.sandbox.batikonly\generated\fw
+launch.bundles                          C:\Users\rotgrau\git\Jasperreport-Osgi\my.sandbox.batikonly\generated\my.sandbox.batikonly.jar,C:\Users\rotgrau\git\Jasperreport-Osgi\my.sandbox.repo\apache-felix\org.apache.felix.configadmin-1.8.12.jar,C:\Users\rotgrau\git\Jasperreport-Osgi\my.sandbox.repo\apache-felix\org.apache.felix.gogo.command-0.16.0.jar,C:\Users\rotgrau\git\Jasperreport-Osgi\my.sandbox.repo\apache-felix\org.apache.felix.gogo.runtime-0.16.2.jar,C:\Users\rotgrau\git\Jasperreport-Osgi\my.sandbox.repo\apache-felix\org.apache.felix.metatype-1.1.2.jar,C:\Users\rotgrau\git\Jasperreport-Osgi\my.sandbox.repo\jasperReports\org.apache.servicemix.bundles.batik\org.apache.servicemix.bundles.batik-1.9.0.jar,C:\Users\rotgrau\git\Jasperreport-Osgi\my.sandbox.repo\jasperReports\org.apache.servicemix.bundles.bcel\org.apache.servicemix.bundles.bcel-5.2.0.jar,C:\Users\rotgrau\git\Jasperreport-Osgi\my.sandbox.repo\jasperReports\org.apache.servicemix.bundles.xalan\org.apache.servicemix.bundles.xalan-2.7.2.jar,C:\Users\rotgrau\git\Jasperreport-Osgi\my.sandbox.repo\jasperReports\org.apache.servicemix.bundles.xerces\org.apache.servicemix.bundles.xerces-2.11.0_1.jar,C:\Users\rotgrau\git\Jasperreport-Osgi\my.sandbox.repo\jasperReports\org.apache.servicemix.bundles.xmlresolver\org.apache.servicemix.bundles.xmlresolver-1.2.0.jar,C:\Users\rotgrau\git\Jasperreport-Osgi\my.sandbox.repo\apache-felix\org.apache.felix.eventadmin-1.4.8.jar,C:\Users\rotgrau\git\Jasperreport-Osgi\my.sandbox.repo\apache-felix\org.apache.felix.scr-2.0.6.jar
+launch.keep                             false
+
+Id    State Modified      Location
+0     ACTIV <>            System Bundle
+1     ACTIV <>            file:/C:/Users/rotgrau/git/Jasperreport-Osgi/my.sandbox.batikonly/generated/my.sandbox.batikonly.jar
+2     ACTIV <>            file:/C:/Users/rotgrau/git/Jasperreport-Osgi/my.sandbox.repo/apache-felix/org.apache.felix.configadmin-1.8.12.jar
+3     ACTIV <>            file:/C:/Users/rotgrau/git/Jasperreport-Osgi/my.sandbox.repo/apache-felix/org.apache.felix.gogo.command-0.16.0.jar
+4     ACTIV <>            file:/C:/Users/rotgrau/git/Jasperreport-Osgi/my.sandbox.repo/apache-felix/org.apache.felix.gogo.runtime-0.16.2.jar
+5     ACTIV <>            file:/C:/Users/rotgrau/git/Jasperreport-Osgi/my.sandbox.repo/apache-felix/org.apache.felix.metatype-1.1.2.jar
+6     ACTIV <>            file:/C:/Users/rotgrau/git/Jasperreport-Osgi/my.sandbox.repo/jasperReports/org.apache.servicemix.bundles.batik/org.apache.servicemix.bundles.batik-1.9.0.jar
+7     ACTIV <>            file:/C:/Users/rotgrau/git/Jasperreport-Osgi/my.sandbox.repo/jasperReports/org.apache.servicemix.bundles.bcel/org.apache.servicemix.bundles.bcel-5.2.0.jar
+8     ACTIV <>            file:/C:/Users/rotgrau/git/Jasperreport-Osgi/my.sandbox.repo/jasperReports/org.apache.servicemix.bundles.xalan/org.apache.servicemix.bundles.xalan-2.7.2.jar
+9     ACTIV <>            file:/C:/Users/rotgrau/git/Jasperreport-Osgi/my.sandbox.repo/jasperReports/org.apache.servicemix.bundles.xerces/org.apache.servicemix.bundles.xerces-2.11.0_1.jar
+10    ACTIV <>            file:/C:/Users/rotgrau/git/Jasperreport-Osgi/my.sandbox.repo/jasperReports/org.apache.servicemix.bundles.xmlresolver/org.apache.servicemix.bundles.xmlresolver-1.2.0.jar
+11    ACTIV <>            file:/C:/Users/rotgrau/git/Jasperreport-Osgi/my.sandbox.repo/apache-felix/org.apache.felix.eventadmin-1.4.8.jar
+12    ACTIV <>            file:/C:/Users/rotgrau/git/Jasperreport-Osgi/my.sandbox.repo/apache-felix/org.apache.felix.scr-2.0.6.jar
+# framework=org.apache.felix.framework [0]
+# registered launcher with arguments for syncing
+# will wait for a registered Runnable
