@@ -1,5 +1,5 @@
 Bundle-Version: 0.0.0
--runfw: org.apache.felix.framework;version='[5.6.4,5.6.4]'
+-runfw: org.apache.felix.framework;version='[5.6.0,5.6.0]'
 -runee: JavaSE-1.8
 -runsystemcapabilities: osgi.ee;osgi.ee=JavaSE;version=1.1
 -runtrace: true
