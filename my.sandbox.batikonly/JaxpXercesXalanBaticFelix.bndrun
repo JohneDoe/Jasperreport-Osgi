@@ -12,7 +12,6 @@ Bundle-Version: 0.0.0
 	osgi.identity;filter:='(&(osgi.identity=org.apache.felix.metatype)(version>=1.1.2))',\
 	osgi.identity;filter:='(osgi.identity=org.apache.servicemix.bundles.batik)',\
 	osgi.identity;filter:='(osgi.identity=org.apache.servicemix.specs.jaxp-api-1.4)',\
-	osgi.identity;filter:='(&(osgi.identity=org.apache.felix.shell)(version>=1.4.1))',\
 	osgi.identity;filter:='(&(osgi.identity=org.apache.felix.eventadmin)(version>=1.4.8))'
 -runbundles: \
 	my.sandbox.batikonly;version=snapshot,\
@@ -26,8 +25,5 @@ Bundle-Version: 0.0.0
 	org.apache.servicemix.bundles.xerces;version='[2.11.0,2.11.1)',\
 	org.apache.servicemix.bundles.xmlresolver;version='[1.2.0,1.2.1)',\
 	org.apache.servicemix.specs.jaxp-api-1.4;version='[2.7.0,2.7.1)',\
-	org.apache.felix.log;version='[1.0.1,1.0.2)',\
-	org.apache.felix.scr;version='[2.0.2,2.0.3)',\
 	org.apache.felix.eventadmin;version='[1.4.8,1.4.9)',\
-	org.apache.felix.shell;version='[1.4.1,1.4.2)',\
-	org.eclipse.osgi;version='[3.10.100,3.10.101)'
+	org.apache.felix.scr;version='[2.0.6,2.0.7)'
