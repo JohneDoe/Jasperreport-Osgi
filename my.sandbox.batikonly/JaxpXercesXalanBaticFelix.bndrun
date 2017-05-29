@@ -1,11 +1,9 @@
 Bundle-Version: 0.0.0
--runfw: org.apache.felix.framework;version='[5.4.0,5.4.0]'
+-runfw: org.apache.felix.framework;version='[5.6.4,5.6.4]'
 -runee: JavaSE-1.8
 -runsystemcapabilities: osgi.ee;osgi.ee=JavaSE;version=1.1
--runvm: -Xbootclasspath/C:/jfluid-server.jar
--runproperties: \
-	org.osgi.framework.bootdelegation=org.netbeans.lib.profiler.* 
 -runtrace: true
+
 -runrequires: \
 	osgi.identity;filter:='(osgi.identity=my.sandbox.batikonly)',\
 	osgi.identity;filter:='(&(osgi.identity=org.apache.felix.configadmin)(version>=1.8.12))',\
@@ -13,10 +11,11 @@ Bundle-Version: 0.0.0
 	osgi.identity;filter:='(&(osgi.identity=org.apache.felix.gogo.command)(version>=0.16.0))',\
 	osgi.identity;filter:='(&(osgi.identity=org.apache.felix.metatype)(version>=1.1.2))',\
 	osgi.identity;filter:='(osgi.identity=org.apache.servicemix.bundles.batik)',\
-	osgi.identity;filter:='(osgi.identity=org.apache.servicemix.specs.jaxp-api-1.4)'
+	osgi.identity;filter:='(osgi.identity=org.apache.servicemix.specs.jaxp-api-1.4)',\
+	osgi.identity;filter:='(&(osgi.identity=org.apache.felix.shell)(version>=1.4.1))',\
+	osgi.identity;filter:='(&(osgi.identity=org.apache.felix.eventadmin)(version>=1.4.8))'
 -runbundles: \
 	my.sandbox.batikonly;version=snapshot,\
-	org.apache.felix.scr;version='[2.0.6,2.0.7)',\
 	org.apache.felix.configadmin;version='[1.8.12,1.8.13)',\
 	org.apache.felix.gogo.command;version='[0.16.0,0.16.1)',\
 	org.apache.felix.gogo.runtime;version='[0.16.2,0.16.3)',\
@@ -26,4 +25,9 @@ Bundle-Version: 0.0.0
 	org.apache.servicemix.bundles.xalan;version='[2.7.2,2.7.3)',\
 	org.apache.servicemix.bundles.xerces;version='[2.11.0,2.11.1)',\
 	org.apache.servicemix.bundles.xmlresolver;version='[1.2.0,1.2.1)',\
-	org.apache.servicemix.specs.jaxp-api-1.4;version='[2.7.0,2.7.1)'
+	org.apache.servicemix.specs.jaxp-api-1.4;version='[2.7.0,2.7.1)',\
+	org.apache.felix.log;version='[1.0.1,1.0.2)',\
+	org.apache.felix.scr;version='[2.0.2,2.0.3)',\
+	org.apache.felix.eventadmin;version='[1.4.8,1.4.9)',\
+	org.apache.felix.shell;version='[1.4.1,1.4.2)',\
+	org.eclipse.osgi;version='[3.10.100,3.10.101)'
